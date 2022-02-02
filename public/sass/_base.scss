@@ -1,0 +1,81 @@
+/*
+COLORS
+
+Primary: #D77FA1
+Primary light: #BAABDA
+Primary blue: #D6E5FA
+Primary white:#FFF9F9
+
+Grey light 1: #faf9f9
+Grey light 2: #f4f2f2
+Grey light 3: #f0eeee
+Grey light 4: #ccc
+
+Grey dark 1: #333
+Grey dark 2: #777
+Grey dark 3: #999
+*/
+:root{
+    --color-primary:#D77FA1;
+    --color-primary-purple:#BAABDA;
+    --color-primary-blue:#D6E5FA;
+    --color-primary-white:#FFF9F9;
+
+    --color-grey-light-1: #faf9f9;
+    --color-grey-light-2:#f4f2f2;
+    --color-grey-light-3: #f0eeee;
+    --color-grey-light-4: #ccc;
+
+    --color-grey-dark-1: #333;
+    --color-grey-dark-2: #777;
+    --color-grey-dark-3: #999;
+
+    --shadow-light: 0 2rem 5rem rgba(0, 0, 0, 0.068);
+
+    --line:1px solid var(--color-grey-light-2);
+    
+
+}
+
+// LAYOUT
+$layoutPadding: 10rem;
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+
+html{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-size: 62.5%; //1rem = 10px 10px/16px=62.5 
+
+  
+    // @include respond(big-desktop){
+    //     font-size: 75%; // 1rem = 12px 12/16= 75%
+    // }
+    @include respond(tab-land){
+        font-size: 56.25%; // 1rem = 9px 9/16=56.25% 
+    }
+    @include respond(tab-port){
+        font-size: 50%; //  1rem = 8px 8/16=50%
+    }
+}
+body{
+    padding:0 3rem;
+    min-height: 100vh;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+
+    @include respond(tab-port){
+        padding: 0;
+    }
+
+}
