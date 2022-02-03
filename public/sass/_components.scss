@@ -318,7 +318,7 @@
 
     &-title{
         background-image: linear-gradient(to right, $color-primary-pink, $color-primary-purple);
-        background-clip: text;
+        -webkit-background-clip: text;
         color: transparent;
         text-align: center;
         direction: rtl;
@@ -685,7 +685,7 @@
         font-size: 6rem;
         display: inline-block;
         background-image: linear-gradient(to right, $color-primary-pink, $color-primary-purple);
-        background-clip: text;
+        -webkit-background-clip: text;
         color: transparent;
 
     }
@@ -1043,7 +1043,7 @@ url(../img/27x2.jpg);
     }
     .book-header{
         background-image: linear-gradient(to right, $color-primary-pink, $color-primary-purple);
-        background-clip: text;
+        -webkit-background-clip: text;
         color: transparent;
         font-size: 4rem;
         position: absolute;
@@ -1289,7 +1289,7 @@ url(../img/27x2.jpg);
         &-icons{
             height: 8rem;
             background-image: linear-gradient(to right,var(--color-primary-white),var(--color-primary));
-            background-clip: border-box;
+            -webkit-background-clip: border-box;
             color: transparent;
             display: inline-block;
 

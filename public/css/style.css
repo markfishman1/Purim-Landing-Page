@@ -308,7 +308,7 @@ body {
       padding: 20rem   2rem; } }
   .gallery-title {
     background-image: linear-gradient(to right, #D77FA1, #BAABDA);
-    background-clip: text;
+    -webkit-background-clip: text;
     color: transparent;
     text-align: center;
     direction: rtl; }
@@ -561,7 +561,7 @@ body {
     font-size: 6rem;
     display: inline-block;
     background-image: linear-gradient(to right, #D77FA1, #BAABDA);
-    background-clip: text;
+    -webkit-background-clip: text;
     color: transparent; }
   .feature-box-heading {
     color: #777;
@@ -782,7 +782,7 @@ body {
         margin-top: 3rem; } }
   .book .book-header {
     background-image: linear-gradient(to right, #D77FA1, #BAABDA);
-    background-clip: text;
+    -webkit-background-clip: text;
     color: transparent;
     font-size: 4rem;
     position: absolute;
@@ -953,7 +953,7 @@ body {
     .about-card-icons {
       height: 8rem;
       background-image: linear-gradient(to right, var(--color-primary-white), var(--color-primary));
-      background-clip: border-box;
+      -webkit-background-clip: border-box;
       color: transparent;
       display: inline-block; }
   .about::before {

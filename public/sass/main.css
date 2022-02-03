@@ -459,7 +459,7 @@ body {
 .gallery-title {
   background-image: -webkit-gradient(linear, left top, right top, from(#D77FA1), to(#BAABDA));
   background-image: linear-gradient(to right, #D77FA1, #BAABDA);
-  background-clip: text;
+  -webkit-background-clip: text;
   color: transparent;
   text-align: center;
   direction: rtl;
@@ -902,7 +902,7 @@ body {
   display: inline-block;
   background-image: -webkit-gradient(linear, left top, right top, from(#D77FA1), to(#BAABDA));
   background-image: linear-gradient(to right, #D77FA1, #BAABDA);
-  background-clip: text;
+  -webkit-background-clip: text;
   color: transparent;
 }
 
@@ -1283,7 +1283,7 @@ body {
 .book .book-header {
   background-image: -webkit-gradient(linear, left top, right top, from(#D77FA1), to(#BAABDA));
   background-image: linear-gradient(to right, #D77FA1, #BAABDA);
-  background-clip: text;
+  -webkit-background-clip: text;
   color: transparent;
   font-size: 4rem;
   position: absolute;
@@ -1568,7 +1568,7 @@ body {
   height: 8rem;
   background-image: -webkit-gradient(linear, left top, right top, from(var(--color-primary-white)), to(var(--color-primary)));
   background-image: linear-gradient(to right, var(--color-primary-white), var(--color-primary));
-  background-clip: border-box;
+  -webkit-background-clip: border-box;
   color: transparent;
   display: inline-block;
 }
