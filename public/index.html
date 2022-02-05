@@ -89,15 +89,16 @@
                     <h3 class="feature-box-heading">צילומים בטבע</h3>
                     <p class="feature-box-text">
                         אוהבים ויקרים פורים 2022 בפתח
-                        ,כמדי שנה ניפגש בלוקיישן מקסים בטבע לצילומים של המתוקים ושלכם
-                        הצילומים יתקיימו בשלושה תאריכים בלבד
+                        ,כמדי שנה ניפגש בלוקיישן מקסים בטבע לצילומים של המתוקים ושלכם,
+                        הצילומים יתקיימו בשלושה תאריכים בלבד:
+                        10.3 , 11.3 , 16.3
                     </p>
                 </div>
                 <div class="feature-box">
                     <i class="icon-basic-compass feature-box-icon"></i>
                     <h3 class="feature-box-heading">יום כיף משפחתי</h3>
                     <p class="feature-box-text">
-                        גם השנה אני מציעה צילומי ילדים בתחפשות בלבד וצילומי משפחה גם ללא תחפושות
+                        גם השנה אני מציעה צילומי ילדים בתחפשות בלבד וצילומי משפחה גם ללא תחפושות.
 
                     </p>
                 </div>
@@ -107,7 +108,7 @@
                     <p class="feature-box-text">
                         חשבתם, חיפשתם, קניתם השקעתם
                         אז לא נתעד?
-                        מזמינה אתכם לנצור את הזכרונות של היום הכי צבעוני ושמח בשנה בואו לכיף ושבירת שגרה ומזכרת נפלאה!
+                        מזמינה אתכם לנצור את הזכרונות של היום הכי צבעוני ושמח בשנה, בואו לכיף ושבירת שגרה ומזכרת נפלאה!
                     </p>
                 </div>
                 <div class="feature-box">
@@ -209,36 +210,35 @@
                     <form action="https://sheetdb.io/api/v1/3um32wnq1xp0y" method="POST" class="form" id="sheetdb-form">
                         <div class="form-group">
                             <input type="text" class="form-input" placeholder="שם מלא" required id="name"
-                                name="data[name]">
+                                name="data[שם]">
                             <label for="name" class="form-label">שם מלא</label>
                         </div>
                         <div class="form-group">
-                            <input type="email" class="form-input" placeholder="דואר אלקטרוני" required id="email"
-                                name="data[email]">
+                            <input type="email" class="form-input" placeholder="דואר אלקטרוני" id="email"
+                                name="data[מייל]">
                             <label for="email" class="form-label">דואר אלקטרוני</label>
                         </div>
                         <div class="form-group">
                             <input type="tel" class="form-input" placeholder=" מספר טלפון" required id="phone"
-                                name="data[phone]">
+                                name="data[טלפון]">
                             <label for="phone" class="form-label">מספר טלפון</label>
                         </div>
                         <div class="form-group-btns">
                             <div class="form-radio-group">
-                                <input type="radio" class="form-radio-input" id="small" name="package">
-                                <label for="small" class="form-radio-label">
-                                    <span class="form-radio-button"></span>
+                                <input type="radio" class="form-radio-input" id="single" name="data[יחיד]">
+                                <label for="single" class="form-radio-label" onclick="checkAndUncheck('single')">
+                                    <span class="form-radio-button form-radio-button-signle"></span>
                                     חבילת יחיד
                                 </label>
                             </div>
                             <div class="form-radio-group">
-                                <input type="radio" class="form-radio-input" id="large" name="package">
-                                <label for="large" class="form-radio-label">
-                                    <span class="form-radio-button"></span>
+                                <input type="radio" class="form-radio-input" id="family" name="data[משפחתית]">
+                                <label for="family" class="form-radio-label" onclick="checkAndUncheck('family')">
+                                    <span class="form-radio-button form-radio-button-family"></span>
                                     חבילה משפחתית
                                 </label>
                             </div>
                         </div>
-
                         <div class="form-group">
                             <button class="btn btn-white form-btn" type="submit">צרו קשר</button>
                         </div>
